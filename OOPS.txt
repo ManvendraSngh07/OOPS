@@ -1,0 +1,35 @@
+write down your questions?
+1. what is instance variable?
+2. what is reference variable?
+3. Class name starts with capital letter or small letter?
+4. If I want to declare my own data-type what I can think of?
+5. what do understand by term class?(class-> template...rules)
+6. what do understand by term objects?
+7. what do understand by term instance?
+8. what do understand by term instantiate?
+9. what are the 3 essential properties for objects?
+10. what is stack memory?
+11. what is heap memory?
+12. why is dot operator used?
+13. Object is stored in stack memory or heap memory?
+14. What is the use of new keyword?
+15. what do you mean by dynamic memory allocation?
+16. Instantiate?
+17. what is the constructor?
+18. why we use this keyword?
+19. why we have created void greeting()?
+20. Student student1 = new student(); ? 
+    what is left-side indicate?(compile)
+    what is right-side indicate?(runtime)
+
+21. why this keyword?
+22. what are two use cases of this keyword?
+23. how to call constructor from another constructor?
+24. what is constructor overloading?
+25. where are primitive data types stored in stack memory/heap memory?
+26. where are objects stored in stack memory/heap memory?
+27. why constructor() does have any return type?
+28. what are wrapper classes?
+29. In java we use pass by value for primitive and reference for objects why?
+30. can we make primitive to behave like objects?
+31. How two reference variables are pointing to same objects?
