@@ -34,3 +34,20 @@ write down your questions?
 30. can we make primitive to behave like objects?
 31. How two reference variables are pointing to same objects?
 32. What are the pillars of oops?
+note:- In java when, you pass objects ... reference value is passed(reference value is passed)
+note:- In java when, you pass primitive .....value is passed i.e pass by value.
+33. what is Integer a = 10; Integer b =20; ??(It is pass by reference because object is being created.)
+34. Integer class -> final class?
+35. what is final keyword?
+35. Declaring variable as final vs Declaring class as final keyword(think)?
+36. why final variable has to be initialised?
+(Always initialise while declaring , why because you cannot change it value)
+37. Final gaurantees immutability, only when the instance variable is primitive types , why??
+38. what is garbage collectors?
+39. In c++, destructor is used to destory object created by constructor manually ?
+40. But in java, object is destroyed by garbage collector..programmer can not destroy object manually ,
+but it can make garbage collector do thing when object is being destroyed?
+41. what is finalizer in term of garbage collector?
+note:Right before, object is freed from memory, java is going to call the garbage-collector and finalize()method.
+42. whenever any object of any class A, class b, is destroyed then finalize() is called and you can check it by creating the finalize()enclosing syso in it?
+43. How to see when your object is destroyed from memory?
