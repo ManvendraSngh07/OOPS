@@ -33,3 +33,4 @@ write down your questions?
 29. In java we use pass by value for primitive and reference for objects why?
 30. can we make primitive to behave like objects?
 31. How two reference variables are pointing to same objects?
+32. What are the pillars of oops?
