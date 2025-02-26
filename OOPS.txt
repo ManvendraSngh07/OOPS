@@ -50,4 +50,33 @@ but it can make garbage collector do thing when object is being destroyed?
 41. what is finalizer in term of garbage collector?
 note:Right before, object is freed from memory, java is going to call the garbage-collector and finalize()method.
 42. whenever any object of any class A, class b, is destroyed then finalize() is called and you can check it by creating the finalize()enclosing syso in it?
-43. How to see when your object is destroyed from memory?
+43. How to see when your object is destroyed from memory?(try to do it, you will feel excited)?
+44. what is override and throws throwable keyword?
+45. You can tell what to do , when memory is being free from object
+here we did it using, syso("object is destroyed");
+
+topic:- packages and staticMethod , Static variable
+46.  what is packages?
+47.  what is the use case of packages?
+48.  com.manvendra.packages.a.? what do you understand by this line?
+49.  import java.util.*; // import java.Scanner;?
+50.  How to create a package in visual studio?
+   (javac -d . Harry.java) -> dot is very important for creating package
+51.  Intellij is easier in dealing with packages
+      (sout,psvm, fori)
+52. package.inner??(package->folder, inner->subfolder)
+53. How to view the source code of anyClass or method()??(ctrl + click)
+54. what is static?Is static property related to object?
+55. what is non-static?
+56. Is there any single property common to all human Beings class? (Population)?
+57. Static variables? static functions?
+58. In order to access static variable, what we use is Classname?
+    eg:     Human.population += 1   (here, human is a class)  
+
+note:- static variable exhist in class not in object
+      ->  you can declare methods and variable both as static.?
+60. why main() is static?
+    (before any object is being created-> It allow you to run main() -> that's why it is static)
+
+61. why static methods can be access static data?
+62. why non static methods can access non-static data? 
