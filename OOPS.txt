@@ -79,4 +79,4 @@ note:- static variable exhist in class not in object
     (before any object is being created-> It allow you to run main() -> that's why it is static)
 
 61. why static methods can be access static data?
-62. why non static methods can access non-static data? 
+62. why non static methods can access static data? 
