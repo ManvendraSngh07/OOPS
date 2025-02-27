@@ -9,6 +9,10 @@ public class Human {
     //why using static before long
 
 
+    static void message(){
+        System.out.println("hello world");
+      //  System.out.println(this.age);//error: this cannot be referenced from static-context
+    }
     public Human(int age, String name, boolean married, int salary) {
         this.age = age;
         this.name = name;

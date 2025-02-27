@@ -22,7 +22,8 @@ public class Main {
 //        System.out.println((Rahul.population)); //output : 1
 //        //here, we have 2 human but the output is 1 . So, it is false
 
-
+       Main funn = new Main();//creating a object funn and calling the fun2
+       funn.fun2();
 
 
     }
@@ -31,10 +32,25 @@ public class Main {
     //It is static
     //this does not belong to any instance(object)
     static void func(){
-        greeting(); //you cant use it because it requires an instance
+      //  greeting(); //you cant use it because it requires an instance
         //but the function you are using it in does not depend on instances.
+
+
+        //you cannot access non-static stuff without referencing their instances in
+        // a static context
+
+        //hence, here I am referencing it.
+        Main obj = new Main();
+        obj.greeting();
     }
 
+
+    //take another example
+    //we know that object for fun2 will be created
+    //it will be created, when you call fun2 in main()
+    void fun2(){
+        greeting();
+    }
 
 
 
