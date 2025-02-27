@@ -56,6 +56,7 @@ note:Right before, object is freed from memory, java is going to call the garbag
 here we did it using, syso("object is destroyed");
 
 topic:- packages and staticMethod , Static variable
+
 46.  what is packages?
 47.  what is the use case of packages?
 48.  com.manvendra.packages.a.? what do you understand by this line?
@@ -80,3 +81,38 @@ note:- static variable exhist in class not in object
 
 61. why static methods can be access static data?
 62. why non static methods can access static data? 
+
+
+note:- when you put stuff, inside a static-context, make sure you are creating object of it.
+note:- when you put stuff, inside a non-static context, you can directly call it->because object for it is created 100% Main()
+At last everything, has to go inside main function.
+
+63. what is story of:
+   void fun2(){
+    greeting();
+   }
+
+64. what is story of:
+static void fun(){
+    greeting();
+}
+
+
+65. why you cannot use this keyword, inside a static method?(because this is used for pointing at object)
+66. what is static block?(understand it by notes)?
+67. why can't outside classes be static?(it is not dependent on any other class)
+68. why inner class are static?(it is dependent on outer class to create object for it to run)
+69. what do we actually mean by static-stuff? using Innerclasses eg:-
+70. static means it is not dependent on object, then how it is that these two objects are dependent & having uniques identities?
+note:- static stuff are resolve during compile time.
+
+71. what do you understand by System.out.println()?
+72. what do you understand by Arrays.toString(new int[]{3,4,5});
+73. what are annotations?
+74. what is singleton class?
+75. How to achieve goal of creating instance of object using constructor()?(private)
+76. what is private constructor?
+
+constructor + new keyword = creation of objects.
+
+77. how to implement it?(refer to note/code...singleton/main.java)
